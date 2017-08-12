@@ -66,3 +66,29 @@ Geschieht dies nicht automatisch nach ca. 10 Sekunden, ist im Browser die Seite 
 **WLAN-Key**: WLAN Passwort
 
 **UDP Port**: gwünschter UDP Port, auf dem Anfragen entgegengenommen werden sollen. Standard: 6674
+
+## Steuerung
+
+Um nun DMX-Geräte zu steuern, müssen lediglich UDP-Pakete im Format **"\<Kanal\>,\<Wert\>;"** an die IP-Adresse des Wemos D1 gesendet werden.
+
+Dies geschieht bspw. mithilfe von `socat`
+
+Beispiel:
+
+Der 
+  - Kanal 1 soll den Wert 16
+  - Kanal 4 soll den Wert 0
+  - Kanal 12 soll den Wert 64
+annehmen. So lautet der Aufruf:
+
+`echo "1,16;4,0;12,64;" | /usr/bin/socat - udp-sendto:<IP-des-Wemos>:6674`
+
+oder aus einem HomeMatic-Skript heraus mittels CUxD Exec:
+
+`dom.GetObject("CUxD.CUX2801001:1.CMD_EXEC").State("echo \"1,16;4,0;12,64;\" | /usr/bin/socat - udp-sendto:<IP-des-Wemos>:6674");`
+
+Der Empfang des Pakets wird quittiert mit der Antwort **ACK**
+
+**Wichtig ist, dass nach jedem Wertepaar (Kanal,Wert) ein ";" als Abschlusszeichen folgt (auch, wenn nur ein einzelner Steuerbefehl gesendet werden soll, bspw.**
+
+`echo "11,0;" | /usr/bin/socat - udp-sendto:<IP-des-Wemos>:6674`
