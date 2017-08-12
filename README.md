@@ -51,7 +51,7 @@ Die **blaue LED am Wifi-Modul blinkt kurz und leuchtet dann dauerhaft.**
 
 Auf dem Handy oder Notebook sucht man nun nach neuen WLAN Netzen in der Umgebung. 
 
-Es erscheint ein neues WLAN mit dem Namen "WemosD1-xx:xx:xx:xx:xx:xx"
+Es erscheint ein neues WLAN mit dem Namen "ESP-DMX-xx:xx:xx:xx:xx:xx"
 
 Nachdem man sich mit diesem verbunden hat, öffnet sich automatisch das Konfigurationsportal.
 
