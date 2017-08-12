@@ -17,7 +17,7 @@ Ein einfacher DMX-Master, der als Controller einsetzbar ist und sich mit einfach
 
 **Beispielaufbau**
 
-![Beispielaufbau](Images/beispielaufbau.png)
+![Beispielaufbau](Images/beispielaufbau.jpg)
 
 ## Flashen
 Wenn alles nach obigem Bild verdrahtet wurde, kann das Image `WemosD1_DMX_Master.ino.d1_mini.bin` auf den Wemos geflasht werden.
