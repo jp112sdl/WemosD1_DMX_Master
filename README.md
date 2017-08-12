@@ -28,7 +28,7 @@ Wenn alles nach obigem Bild verdrahtet wurde, kann das Image `WemosD1_DMX_Master
   - CH340-Treiber installieren ([Download-Seite des Herstellers](https://wiki.wemos.cc/downloads))
   - Kommandozeilentool [esptool](https://github.com/igrr/esptool-ck/releases) herunterladen (Windows, Linux Mac) 
   - oder grafisches Tool [ESP8266Flasher](https://esp8266.ru/download/esp8266-utils/esp8266_flasher.zip) herunterladen und entpacken (Windows)
-2. Die Dateien esptool.exe und WemosD1_HomeMatic_Helligkeitssensor.ino.d1_mini.bin am besten in einem gemeinsamen Verzeichnis ablegen
+2. Die Dateien `esptool.exe` und `WemosD1_DMX_Master.ino.d1_mini.bin` am besten in einem gemeinsamen Verzeichnis ablegen
 3. WemosD1 mit einem microUSB-Kabel an den PC anschließen
 4. Bezeichnung des neuen COM-Ports im Gerätemanager notieren (z.B. COM5)
 5. a) Flash-Vorgang durchführen (mit ESP8266Flasher):
