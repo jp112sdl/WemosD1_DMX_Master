@@ -1,0 +1,9 @@
+[submodule "libraries/ESP-Dmx"]
+	path = libraries/ESP-Dmx
+	url = https://github.com/Rickgg/ESP-Dmx
+[submodule "libraries/WiFiManager"]
+	path = libraries/WiFiManager
+	url = https://github.com/jp112sdl/WiFiManager
+[submodule "libraries/ArduinoJson"]
+	path = libraries/ArduinoJson
+	url = https://github.com/bblanchon/ArduinoJson
