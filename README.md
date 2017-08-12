@@ -7,6 +7,7 @@ Ein einfacher DMX-Master, der als Controller einsetzbar ist und sich mit einfach
 - 1x [Wemos D1 mini](http://www.ebay.de/itm/272271662681) (ca. 3,29 EUR)
 - 1x [RS-485 Modul](http://www.ebay.de/itm/252712534559) (ca. 2,29 EUR)
 - 1x [XLR Kupplung](http://www.ebay.de/itm/141649245340) (ca. 1,90 EUR)
+- 1x [Widerstand 120 Ohm](http://www.ebay.de/itm/321505818922) (ca. 0,10 EUR)
 - 1x Stromversorgungsmodul, z.B. [HLK-PM01](http://www.ebay.de/itm/272521453807) (ca. 2,34 EUR) - oder ein 5V Netzteil mit microUSB
 - 1x [Taster](http://www.ebay.de/itm/263057910534), wird jedoch nur zur (Erst-)Konfiguration benötigt
 (_statt des Tasters kann man auch mit einer temporären Drahtbrücke arbeiten_) 
