@@ -16,8 +16,9 @@ Ein einfacher DMX-Master, der als Controller einsetzbar ist und sich mit einfach
 ![wiringLDR](Images/wiring.png)
 
 **Beispielaufbau**
-
 ![Beispielaufbau](Images/beispielaufbau.jpg)
+
+_Die RS-485 Platine und der Wemos D1 mini sind mit Heißkleber zu einem Modul zusammengeklebt_
 
 ## Flashen
 Wenn alles nach obigem Bild verdrahtet wurde, kann das Image `WemosD1_DMX_Master.ino.d1_mini.bin` auf den Wemos geflasht werden.
