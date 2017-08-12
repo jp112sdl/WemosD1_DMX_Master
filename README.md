@@ -1,7 +1,7 @@
 # WemosD1_DMX_Master
 
 ## Funktionsübersicht:
-Ein einfacher DMX-Master, der als Controller einsetzbar ist und sich mit einfachen UDP-Befehlen steuern lässt.
+Ein kleiner DMX-Master, der als Controller einsetzbar ist und sich mit einfachen UDP-Befehlen steuern lässt.
 
 ## Teileliste:
 - 1x [Wemos D1 mini](http://www.ebay.de/itm/272271662681) (ca. 3,29 EUR)
